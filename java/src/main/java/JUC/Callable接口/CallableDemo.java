@@ -24,7 +24,10 @@ public class CallableDemo implements Callable<String> {
         FutureTask futureTask=new FutureTask(new CallableDemo());
         new Thread(futureTask).start();
 
+        Thread.sleep(2222);
+        System.out.println(futureTask.isDone());
         System.out.println(futureTask.get());
+        System.out.println(futureTask.isDone());
 
 
     }

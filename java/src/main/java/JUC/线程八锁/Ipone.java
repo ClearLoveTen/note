@@ -11,6 +11,7 @@ public class Ipone {
 
 
     public synchronized void sendEmail() throws Exception {
+        TimeUnit.SECONDS.sleep(3);
 
         System.out.println("发邮件");
     }
