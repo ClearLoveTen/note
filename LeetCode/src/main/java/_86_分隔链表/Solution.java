@@ -1,6 +1,6 @@
 package _86_分隔链表;
 
-import LeetCode.util.ListNode;
+import util.ListNode;
 
 /**
  * @author xiaotiaowa

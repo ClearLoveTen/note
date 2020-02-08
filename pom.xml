@@ -13,9 +13,23 @@
         <module>设计模式</module>
         <module>数据结构</module>
         <module>java</module>
-    </modules>
+        <module>springboot</module>
 
+
+    </modules>
+    <!-- 这里一般有 maven 的默认配置，修改即可 -->
+    <properties>
+        <java.version>1.8</java.version>
+    </properties>
     <dependencies>
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-all</artifactId>
+            <version>5.1.2</version>
+        </dependency>
+
+
+
 
 
     </dependencies>

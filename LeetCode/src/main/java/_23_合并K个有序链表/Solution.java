@@ -1,6 +1,6 @@
 package _23_合并K个有序链表;
 
-import LeetCode.util.ListNode;
+import util.ListNode;
 
 import java.util.LinkedList;
 import java.util.List;

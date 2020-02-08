@@ -1,6 +1,6 @@
 package _21_合并两个有序链表;
 
-import LeetCode.util.ListNode;
+import util.ListNode;
 
 /**
  * @author xiaotiaowa

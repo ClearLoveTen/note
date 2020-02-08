@@ -1,6 +1,6 @@
 package _142_环形链表;
 
-import LeetCode.util.ListNode;
+import util.ListNode;
 
 import java.util.HashSet;
 import java.util.Set;

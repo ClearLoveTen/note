@@ -1,6 +1,7 @@
 package _19_删除链表倒数K个元素;
 
-import LeetCode.util.ListNode;
+
+import util.ListNode;
 
 /**
  * @author xiaotiaowa

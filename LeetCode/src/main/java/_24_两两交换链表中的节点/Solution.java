@@ -1,6 +1,6 @@
 package _24_两两交换链表中的节点;
 
-import LeetCode.util.ListNode;
+import util.ListNode;
 
 /**
  * @author xiaotiaowa

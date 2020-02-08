@@ -1,6 +1,6 @@
 package _02_两数相加;
 
-import LeetCode.util.ListNode;
+import util.ListNode;
 
 /**
  * @author xiaotiaowa

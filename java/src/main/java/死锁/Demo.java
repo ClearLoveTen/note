@@ -1,7 +1,5 @@
 package 死锁;
 
-import org.omg.SendingContext.RunTime;
-import sun.rmi.runtime.RuntimeUtil;
 
 /**
  * @author xiaotiaowa
