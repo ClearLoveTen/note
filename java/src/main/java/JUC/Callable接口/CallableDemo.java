@@ -14,7 +14,7 @@ public class CallableDemo implements Callable<String> {
     @Override
     public String call() throws Exception {
         System.out.println("武佳豪呀");
-
+        Thread.sleep(2000);
         return "wujiahao";
     }
 
@@ -24,10 +24,8 @@ public class CallableDemo implements Callable<String> {
         FutureTask futureTask=new FutureTask(new CallableDemo());
         new Thread(futureTask).start();
 
-        Thread.sleep(2222);
-        System.out.println(futureTask.isDone());
         System.out.println(futureTask.get());
-        System.out.println(futureTask.isDone());
+        System.out.println("我来了");
 
 
     }

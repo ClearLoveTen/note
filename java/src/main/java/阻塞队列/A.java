@@ -1,6 +1,6 @@
 package 阻塞队列;
 
-import java.util.concurrent.BlockingDeque;
+
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.SynchronousQueue;
 
