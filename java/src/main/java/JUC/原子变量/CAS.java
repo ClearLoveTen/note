@@ -1,5 +1,6 @@
 package JUC.原子变量;
 
+import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicInteger;
 
 /**
@@ -7,7 +8,7 @@ import java.util.concurrent.atomic.AtomicInteger;
  * @version 1.0
  * @date 2019/9/20 18:03
  */
-public class demo implements Runnable{
+public class CAS implements Runnable{
 
     AtomicInteger atomicInteger= new AtomicInteger();
     @Override
@@ -26,7 +27,7 @@ public class demo implements Runnable{
 
     public static void main(String[] args) {
 
-        demo demo = new demo();
+        CAS demo = new CAS();
         for (int i=0;i<10;i++) {
             new Thread(demo).start();
             new Thread(demo).start();
