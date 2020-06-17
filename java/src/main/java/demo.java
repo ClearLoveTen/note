@@ -10,6 +10,7 @@ public class demo {
 
     public static void main(String[] args) throws UnsupportedEncodingException {
 
+
         String srr="25252";
 ;
         byte[] bytes = srr.getBytes();

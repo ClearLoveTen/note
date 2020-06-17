@@ -1,5 +1,6 @@
 package JUC.原子变量;
 
+import java.util.Collections;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicInteger;
 
@@ -13,6 +14,7 @@ public class CAS implements Runnable{
     AtomicInteger atomicInteger= new AtomicInteger();
     @Override
     public void run() {
+
         try {
             Thread.sleep(100);
             System.out.println(Thread.currentThread().getName()+"  " +getI());
